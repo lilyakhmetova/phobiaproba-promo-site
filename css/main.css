@@ -1,0 +1,207 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "Druk Text Wide Cyr";
+  src: url("../fonts/Druk Text Wide Cyr Medium.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Druk Text Wide Cyr";
+  background-color: black;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.menu {
+  margin: 14vw 8vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  font-size: 15px;
+  -webkit-text-fill-color: white;
+  text-decoration: none;
+}
+
+.iconmenu {
+  width: 30px;
+  height: 20px;
+  display: inherit;
+}
+
+.fullmenu {
+  margin: -16vw 8vw 14vw 8vw;
+  display: none;
+  flex-direction: column;
+}
+
+.fullmenu a {
+  margin-top: 30px;
+}
+
+.iconcross {
+  display: none;
+  height: 20px;
+}
+
+.shadow {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0,0,0,.6);
+}
+
+video {
+  width: 100vw;
+}
+
+.purple {
+  position: absolute;
+  margin-top: 5vw;
+  left: -15vw;
+}
+
+.red {
+  position: absolute;
+  margin-top: -20vw;
+  right: -20vw;
+  z-index: 1;
+}
+
+.about {
+  width: 100vw;
+  margin: 10vw 8vw;
+  margin-top: 30vh;
+  padding-left: 20px;
+  border-left: 1px solid #FFFFFF;
+}
+
+p {
+  font-size: 12px;
+  line-height: 20px;
+  -webkit-text-fill-color: white;
+  width: 80vw;
+  margin-bottom: 20px;
+}
+
+.framebar {
+  width: 84vw;
+  position: absolute;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 20px;
+  position: absolute;
+  line-height: 60px;
+  -webkit-text-stroke: 1px white;
+  margin: -1vw 4vw;
+}
+
+.mainbar {
+  margin: 34vw 8vw;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 5.5vw;
+  right: 7vw;
+}
+
+.purpleglass {
+  position: absolute;
+  top: 30vh;
+  left: -5vw;
+  animation: fly 6s ease-in-out infinite;
+}
+
+.yellowglass {
+  position: absolute;
+  top: 0vh;
+  animation: fly 7s ease-in-out infinite;
+}
+
+.redglass {
+  position: absolute;
+  right: 15vw;
+  top: 45vh;
+  animation: fly 9s ease-in-out infinite;
+}
+
+.blueglass {
+  position: absolute;
+  right: -7vw;
+  top: 35vh;
+  animation: fly 8s ease-in-out infinite;
+}
+
+@keyframes fly {
+  50% {
+    transform: translateY(5vh);
+  }
+
+  60% {
+    transform: translateY(4.5vh);
+  }
+
+  70% {
+    transform: translateY(5vh);
+  }
+}
+
+footer {
+  position: relative;
+  width: 100vw;
+  margin: 90vh 8vw 0vh 8vw;
+}
+
+footer p {
+  padding-left: 20px;
+  border-left: 1px solid #FFFFFF;
+  margin-top: 40px;
+}
+
+footer p a {
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+.subscription {
+  margin: 10vw 8vw 10vw 8vw;
+}
+
+.subscription p {
+  margin-bottom: 1vw;
+}
+
+input {
+  height: 32px;
+  width: 99%;
+  background-color: black;
+  border: 1px solid #FFFFFF;
+  color: white;
+  font-size: 12px;
+  font-family: "Druk Text Wide Cyr";
+}
+
+.button {
+  margin-top: 5vw;
+  background-color: black;
+  border: 1px solid #FFFFFF;
+  color: white;
+  font-size: 12px;
+  font-family: "Druk Text Wide Cyr";
+  text-align: center;
+  padding: 2vw;
+}
