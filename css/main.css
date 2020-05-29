@@ -14,7 +14,6 @@ html {
 body {
   font-family: "Druk Text Wide Cyr";
   background-color: black;
-  position: relative;
   overflow-x: hidden;
 }
 
@@ -37,7 +36,7 @@ a {
 }
 
 .fullmenu {
-  margin: -16vw 8vw 14vw 8vw;
+  margin: -14vw 8vw 14vw 8vw;
   display: none;
   flex-direction: column;
 }
@@ -59,6 +58,7 @@ a {
   z-index: 1;
   background-color: rgba(0,0,0,.6);
 }
+
 
 video {
   width: 100vw;
@@ -145,6 +145,10 @@ h1 {
   animation: fly 8s ease-in-out infinite;
 }
 
+.desktopmenu {
+  display: none;
+}
+
 @keyframes fly {
   50% {
     transform: translateY(5vh);
@@ -204,4 +208,197 @@ input {
   font-family: "Druk Text Wide Cyr";
   text-align: center;
   padding: 2vw;
+}
+
+.desktopframe {
+  display: none;
+}
+
+.fulldesktopframe {
+  display: none;
+}
+
+@media (min-width:768px) {
+  .menu {
+    margin: 8vw 4vw;
+  }
+
+  .fullmenu {
+    margin: -8vw 4vw 8vw 4vw;
+  }
+
+  .about {
+    margin: 8vw 4vw 8vw 20vw;
+  }
+
+  p {
+    width: 55vw;
+  }
+
+  .purple {
+    margin-top: 5vw;
+    left: -15vw;
+    width: 40vw;
+  }
+
+  .red {
+    margin-top: -35vw;
+    right: -5vw;
+    width: 30vw;
+  }
+
+  .mainbar {
+    margin: 0vw 4vw;
+  }
+
+  .framebar {
+    display: none;
+  }
+
+  .desktopframe {
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin: 1vw 0vw 1vw 31vw;
+  }
+
+  .arrow {
+    height: 27px;
+    margin-top: 3.5vw;
+    right: 16vw
+  }
+
+  .purpleglass {
+    top: 5vh;
+    width: 22vw;
+    left: -3vw;
+  }
+
+  .yellowglass {
+    top: -14vh;
+    width: 45vw;
+  }
+
+  .redglass {
+    right: 52vw;
+    top: 15vh;
+    width: 25vw;
+  }
+
+  .blueglass {
+    right: 45vw;
+    top: 12vh;
+    width: 20vw;
+  }
+
+  footer {
+    margin: 38vh 4vw 0vh 4vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer p {
+    width: 40vw;
+  }
+
+  input {
+    width: 325px;
+  }
+
+  .subscription {
+    margin: 4vw 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .subscription p {
+    margin-bottom: 0vw;
+  }
+
+  .button {
+    margin-top: 2vw;
+    padding: 1vw 0vw 1vw 0vw;
+    width: 326px;
+  }
+
+}
+
+@media (min-width:1024px) {
+  .menu {
+    display: none;
+  }
+
+  .desktopmenu {
+    margin: 4vw 5vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .leftdesktopmenu {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  a {
+    margin-right: 3vw;
+  }
+
+  .desktopmenu > a {
+    margin-right: 0vw;
+  }
+
+  .purple {
+    margin-top: 1vw;
+    left: -3vw;
+    width: 32vw;
+  }
+
+  .red {
+    margin-top: -22vw;
+    right: -1vw;
+    width: 23vw;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 20px;
+    width: 30vw;
+  }
+
+  .about {
+    margin: 5vw 4vw 5vw 32vw;
+  }
+
+  .mainbar {
+    margin: 0vw 5vw;
+    position: relative;
+  }
+
+  .desktopframe {
+    display: none;
+  }
+
+  h1 {
+    font-size: 60px;
+    margin-top: 2vw;
+  }
+
+  footer {
+  margin: 56vh 5vw 0vh 5vw;
+  }
+
+  .arrow {
+    height: 52px;
+    margin-top: 2.5vw;
+    right: 12vw;
+  }
+
+
 }
