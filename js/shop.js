@@ -49,7 +49,5 @@ document.querySelector('.button').onclick = function pieces() {
   }
 }
 
-
-
 document.querySelector('.purplepiece2').style.display = 'none'
 document.querySelector('.redpiece2').style.display = 'none'
