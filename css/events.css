@@ -6,8 +6,17 @@
   border-top: 1px solid white;
 }
 
+#last {
+  border-bottom: 1px solid white;
+  padding-bottom: 4vw;
+}
+
 .data {
   margin-bottom: 8vw;
+}
+
+h1 {
+  cursor: default;
 }
 
 .data h2 {
@@ -44,7 +53,7 @@
   margin-bottom: 8vw;
 }
 
-.event img:hover {
+img:hover {
   -webkit-filter: invert(100%);
 }
 
@@ -57,9 +66,9 @@
   transition: all 1s linear;
   opacity:0;
   transition: 1s;
-  animation: show 3s 1;
+  animation: show 1.5s 1;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
+  animation-delay: 0.2s;
 }
 
 @keyframes show {
@@ -71,5 +80,144 @@
   100% {
     opacity:1;
 }
+}
+
+.tabletevent {
+  display: none;
+}
+
+.desktopevent {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  .tabletevent {
+    display: block;
+    border-top: 1px solid white;
+    margin: 0vw 4vw;
+    margin-bottom: 4vw;
+  }
+
+  .event {
+    display: none;
+  }
+
+  .data h2 {
+    margin-top: 4vw;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 0px;
+    position: inherit;
+    margin-left: 0vw;
+  }
+
+  .tabletevent .button {
+    margin-top: 0px;
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  .data {
+    margin-bottom: 4vw;
+  }
+
+  .tabletevent .wrapper {
+    flex-direction: column;
+    margin-bottom: 4vw;
+    width: 220px;
+  }
+
+  .datablock {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .tabletevent img {
+    width: 208px;
+    border: 1px solid #FFFFFF;
+    margin-right: 20px;
+  }
+
+  .tabletevent p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .tabletmoreinfo {
+    display: none;
+    justify-content: space-between;
+  }
+
+  .text {
+    margin-right: 20vw;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .tabletevent {
+    display: none;
+  }
+
+  .desktopevent {
+    display: block;
+    border-top: 1px solid white;
+    margin: 0vw 5vw;
+    margin-bottom: 4vw;
+  }
+
+  h2 {
+    margin-left: 8vw;
+    -webkit-text-fill-color: white;
+    font-size: 40px;
+    line-height: 40px;
+    width: 60vw;
+  }
+
+  .desktopevent .wrapper {
+    flex-direction: column;
+    margin-bottom: 0vw;
+  }
+
+  .desktopevent .button {
+    margin-top: 0px;
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  .datablock {
+    margin-top: 4vw;
+    align-items: center;
+  }
+
+  .desktopevent img {
+    width: 208px;
+    border: 1px solid #FFFFFF;
+    margin-right: 8vw;
+  }
+
+  .desktopevent p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .moreinfo {
+    margin-top: 2vw;
+  }
+
+  .desktopevent p {
+    width: 38vw;
+  }
+
+
 
 }
