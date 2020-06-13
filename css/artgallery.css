@@ -1,0 +1,114 @@
+* {
+  transition: none;
+}
+
+body {
+  animation: color 8s ease infinite;
+  overflow-x: hidden;
+}
+
+@keyframes color {
+
+  50% {
+    background: #9F57FF;
+  }
+
+  100% {
+    background: black;
+  }
+}
+
+.book {
+  position: absolute;
+  visibility: hidden;
+  box-shadow: 0 0 20vw white;
+  z-index: -1;
+}
+
+.flipbook-viewport{
+	overflow:hidden;
+	width:100%;
+	height:100%;
+  box-shadow:0 0 20vw white;
+  top:0vw;
+	left:0vw;
+}
+
+.flipbook-viewport .container{
+	position:absolute;
+	top:0vw;
+	left:6vw;
+	margin:auto;
+}
+
+.flipbook-viewport .flipbook{
+	width:88vw;
+	height:40vw;
+	left:0px;
+	top:0px;
+}
+
+.flipbook-viewport .page{
+	width:44vw;
+	height:40vw;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+
+}
+
+.flipbook .page{
+  box-shadow:0 0 20vw white;
+}
+
+.flipbook-viewport .page img{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+}
+
+.flipbook-viewport .shadow{
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	box-shadow:0 0 20px white;
+}
+
+.flipbook-viewport .double{
+	width:88vw;
+	height:40vw;
+	background-size:100% 100%;
+}
+
+
+.gallery {
+  position: absolute;
+  margin: 54vw 8vw 14vw 8vw;
+}
+
+.subscription {
+  margin: 0vw;
+}
+
+iframe {
+  width: 84vw;
+  height: 52vw;
+  border: 1px solid white;
+}
+
+.gallery img {
+  width: 56vw;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+
+.gallery img:nth-child(odd) {
+  margin-left: 28vw;
+}
+
+.gallery img:hover {
+  -webkit-filter: invert(100%);
+}

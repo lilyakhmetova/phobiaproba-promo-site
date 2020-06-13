@@ -233,7 +233,7 @@ footer p a:active {
 
 input {
   height: 36px;
-  width: 278px;
+  width: 273px;
   background: transparent;
   border: 1px solid #FFFFFF;
   color: white;
@@ -250,7 +250,7 @@ input {
   text-align: center;
   padding: 9px;
   cursor: pointer;
-  width: 262px;
+  width: 255px;
 }
 
 .button:hover {
