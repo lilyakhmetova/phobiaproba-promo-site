@@ -24,6 +24,7 @@ body {
   visibility: hidden;
   box-shadow: 0 0 20vw white;
   z-index: -1;
+  cursor: pointer;
 }
 
 .flipbook-viewport{

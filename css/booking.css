@@ -66,10 +66,6 @@
     width: 44vw;
   }
 
-  .form input {
-
-  }
-
   .text {
     margin-top: 20px;
     width: 46vw;
@@ -96,4 +92,78 @@
     width: 294px;
   }
 
+  .tabletbooking img {
+    display: none;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .tabletbooking {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 8vw 5vw 2vw 5vw;
+  }
+
+  .tabletbooking input {
+    margin-bottom: 20px;
+    width: 500px;
+    height: 42px;
+    font-size: 15px;
+  }
+
+  .bookingbutton .button {
+    font-size: 20px;
+    padding: 12px;
+    width: 476px;
+  }
+
+  .text {
+    margin-top: 20px;
+    margin-right: 3vw;
+    width: 32vw;
+  }
+
+  .text p {
+    width: 32vw;
+    margin-bottom: 20px;
+  }
+
+  .text p:last-child {
+    margin-bottom: 0px;
+  }
+
+  .subscription {
+    margin-top: 0vw;
+  }
+
+  .tabletbooking img {
+    display: block;
+    width: 16vw;
+    margin-top: -2vw;
+    animation: fly 8s ease-in-out infinite;
+  }
+}
+
+@media (min-width: 1600px) {
+
+  .text {
+    margin-top: 20px;
+    margin-right: 10vw;
+    width: 30vw;
+  }
+
+  .text p {
+    width: 30vw;
+  }
+
+}
+
+@media (min-width: 1900px) {
+
+  .text {
+    margin-right: 15vw;
+  }
 }
