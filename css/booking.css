@@ -1,0 +1,99 @@
+.booking {
+  margin: 10vw 8vw 10vw 8vw;
+  display: flex;
+  flex-direction: column;
+  width: 84vw;
+  align-items: center;
+}
+
+.booking p {
+  margin-bottom: 0vw;
+}
+
+.booking input {
+  margin-bottom: 4vw;
+}
+
+.text {
+  margin: 8vw 0vw;
+  border-left: 1px solid white;
+  padding-left: 20px;
+}
+
+.text p {
+  margin-bottom: 4vw;
+}
+
+.subscription {
+  margin-top:  -8vw;
+}
+
+.tabletbooking {
+  display: none;
+}
+
+
+@media (min-width: 321px and max-width: 414px) {
+
+  input {
+    width: 84vw;
+  }
+
+  .button {
+    width: 82vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  .bookingbutton {
+    margin: 0vw 8vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .booking {
+    display: none;
+  }
+
+  .tabletbooking {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 24vw 4vw;
+  }
+
+  .form {
+    width: 44vw;
+  }
+
+  .form input {
+
+  }
+
+  .text {
+    margin-top: 20px;
+    width: 46vw;
+  }
+
+  .text p {
+    width: 44vw;
+  }
+
+  .text p:last-child {
+    margin-bottom: 0vw;
+  }
+
+  .form p {
+    margin-bottom: 0vw;
+  }
+
+  .tabletbooking input {
+    margin-bottom: 2vw;
+    width: 310px;
+  }
+
+  .bookingbutton .button {
+    width: 294px;
+  }
+
+}
