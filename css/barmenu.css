@@ -1,0 +1,122 @@
+* {
+  transition: all 500ms ease;
+}
+
+.barmenu {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textmenu {
+  margin: 14vw 8vw;
+  width: 100vw;
+  position: relative;
+}
+
+.textmenu h1 {
+  font-size: 25px;
+  line-height: 30px;
+  margin: 20vw 0vw 6vw 0vw;
+  cursor: default;
+  position: inherit;
+}
+
+.textmenu p {
+  margin-top: 14vw;
+}
+
+.yellowglass {
+    position: absolute;
+    top: -14vh;
+    left: 48vw;
+    animation: fly 7s ease-in-out infinite;
+    width: 65vw;
+}
+
+.dog,
+.death,
+.height,
+.light,
+.spider,
+.snake,
+.war,
+.field,
+.cube,
+.nightmare {
+  margin-left: -1.5vw;
+}
+
+.height {
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+
+.death,
+.light,
+.war,
+.field,
+.cube,
+.height,
+.nightmare  {
+  margin-bottom: 4vw;
+}
+
+#price {
+  margin-top: 5vw;
+  cursor: pointer;
+}
+
+#price:hover {
+  -webkit-text-fill-color: #9F57FF;
+}
+
+.purpleglass {
+  position: absolute;
+  top: 166vh;
+  left: 52vw;
+  animation: fly 6s ease-in-out infinite;
+  width: 50vw;
+}
+
+#social {
+  margin-top: 18vw;
+}
+
+#inside {
+  margin-top: 16vw;
+}
+
+#socialp {
+  margin-top: 20vw;
+}
+
+#space {
+  margin-top: 16vw;
+}
+
+.blueglass {
+  position: absolute;
+  right: -4vw;
+  top: 320vh;
+  animation: fly 8s ease-in-out infinite;
+  width: 44vw;
+}
+
+.redglass {
+  right: 10vw;
+  top: 486vh;
+  animation: fly 9s ease-in-out infinite;
+  width: 45vw;
+}
+
+.spider,
+.snake,
+.war,
+.field,
+.cube,
+.nightmare {
+  display: none;
+}
