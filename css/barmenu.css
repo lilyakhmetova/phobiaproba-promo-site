@@ -2,8 +2,18 @@
   transition: all 500ms ease;
 }
 
+.mobilebarmenu {
+  width: 100vw;
+  margin-top: -5vw;
+}
+
+.desktopbarmenu {
+  display: none;
+}
+
 .barmenu {
   width: 100vw;
+  margin-top: -5vw;
   position: absolute;
   display: flex;
   align-items: center;
@@ -152,6 +162,10 @@
 
 @media (min-width: 768px) {
 
+  .mobilebarmenu {
+    margin-top: 0vw;
+  }
+
   .barmenu {
     display: none;
   }
@@ -178,6 +192,7 @@
 
   .tabletbarmenu {
     width: 100vw;
+    margin-top: -5vw;
     display: block;
     position: absolute;
     display: flex;
@@ -245,10 +260,113 @@
     margin-top: 4vw;
     margin-bottom: 8vw;
   }
-
-
 }
 
 @media (min-width: 1024px) {
+
+  .desktopbarmenuframe {
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobilebarmenu {
+    display: none;
+  }
+
+  .desktopbarmenu {
+    display: block;
+  }
+
+  .textmenu {
+    margin: 4vw 5vw;
+  }
+
+  .textmenu h1 {
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    margin-left: 1.5vw;
+  }
+
+  .h1 {
+    width: 45vw;
+  }
+
+  .pricesblock {
+    width: 90vw;
+    height: 21vw;
+    align-items: center;
+  }
+
+  .phobias {
+    width: 22.5vw;
+  }
+
+  .dog,
+  .death,
+  .height,
+  .light,
+  .spider,
+  .snake,
+  .war,
+  .field,
+  .cube,
+  .nightmare {
+    width: 21.5vw;
+    margin: 0vw;
+  }
+
+  .block {
+    width: 90vw;
+    height: 21vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .block_p {
+    width: 45vw;
+  }
+
+  .block p {
+    margin-left: 1vw;
+  }
+
+  #social {
+    margin-top: 0vw;
+    margin-left: 1vw;
+  }
+
+  .death,
+  .war,
+  .light,
+  .nightmare {
+    margin-left: 2vw;
+  }
+
+  .yellowglass {
+    top: -16vh;
+    left: 59vw;
+    width: 48vw;
+  }
+
+  .purpleglass {
+    top: 90vh;
+    left: 24vw;
+    width: 26vw;
+  }
+
+  .blueglass {
+    top: 170vh;
+    right: 1vw;
+    width: 30vw;
+  }
+
+  .redglass {
+    right: 54vw;
+    top: 270vh;
+    width: 24vw;
+  }
 
 }
