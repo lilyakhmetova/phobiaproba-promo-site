@@ -120,3 +120,135 @@
 .nightmare {
   display: none;
 }
+
+.tabletbarmenu {
+  display: none;
+}
+
+@media (min-width: 375px) {
+
+  .textmenu h1 {
+    font-size: 30px;
+  }
+
+  .textmenu p {
+    margin-top: 25vw;
+    margin-bottom: 12vw;
+  }
+
+  .dog,
+  .death,
+  .height,
+  .light,
+  .spider,
+  .snake,
+  .war,
+  .field,
+  .cube,
+  .nightmare {
+    width: 328px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .barmenu {
+    display: none;
+  }
+
+  .textmenu h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 14vw;
+  }
+
+  .textmenu p {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+  }
+
+  .textmenu {
+    margin: 8vw 8vw;
+  }
+
+  .pricesblock {
+    width: 92vw;
+    display: flex;
+  }
+
+  .tabletbarmenu {
+    width: 100vw;
+    display: block;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dog,
+  .death,
+  .height,
+  .light,
+  .spider,
+  .snake,
+  .war,
+  .field,
+  .cube,
+  .nightmare {
+    width: 209px;
+  }
+
+  .redglass {
+    top: 238vh;
+  }
+
+  .blueglass {
+    top: 148vh;
+  }
+
+  .purpleglass {
+    top: 70vh;
+  }
+
+  #price {
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+  }
+
+  #tabletnature {
+    margin-top: 5vw;
+  }
+
+  #social {
+    margin-top: 10vw;
+  }
+
+  #socialp {
+    margin-top: 8vw;
+  }
+
+  .height {
+    margin-bottom: 9vw;
+    margin-top: 0vw;
+  }
+
+  #spacefear {
+    margin-top: 3vw;
+  }
+
+  #spacephobias {
+    margin-top: -1vw;
+  }
+
+  #insidefear {
+    margin-top: 4vw;
+    margin-bottom: 8vw;
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+
+}
