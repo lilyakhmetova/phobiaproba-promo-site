@@ -304,16 +304,25 @@
     width: 22.5vw;
   }
 
-  .dog,
-  .death,
-  .height,
-  .light,
-  .spider,
-  .snake,
-  .war,
-  .field,
-  .cube,
-  .nightmare {
+  .spider2,
+  .snake2,
+  .war2,
+  .field2,
+  .cube2,
+  .nightmare2 {
+    display: none;
+  }
+
+  .dog2,
+  .death2,
+  .height2,
+  .light2,
+  .spider2,
+  .snake2,
+  .war2,
+  .field2,
+  .cube2,
+  .nightmare2 {
     width: 21.5vw;
     margin: 0vw;
   }
@@ -338,10 +347,10 @@
     margin-left: 1vw;
   }
 
-  .death,
-  .war,
-  .light,
-  .nightmare {
+  .death2,
+  .war2,
+  .light2,
+  .nightmare2 {
     margin-left: 2vw;
   }
 
