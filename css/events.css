@@ -90,6 +90,34 @@ img:hover {
   display: none;
 }
 
+  .tickets {
+    width: 90vw;
+    height: 100vw;
+    background: #9F57FF;
+    position: fixed;
+    z-index: 1;
+    top: 0vw;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+  }
+
+  .tickets p {
+    margin-bottom: 0vw;
+  }
+
+  .tickets img {
+    position: absolute;
+    top: 1.5vw;
+    right: 1.5vw;
+    cursor: pointer;
+  }
+
 @media (min-width: 768px) {
 
   .tabletevent {
@@ -159,6 +187,16 @@ img:hover {
   .text {
     margin-right: 20vw;
   }
+
+
+    .tickets {
+      width: 55vw;
+      height: 40vw;
+    }
+
+    .tickets p {
+      width: 45vw;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -218,6 +256,14 @@ img:hover {
     width: 38vw;
   }
 
+  .tickets {
+    width: 35vw;
+    height: 15vw;
+  }
 
+  .tickets p {
+
+    width: 30vw;
+  }
 
 }

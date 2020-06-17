@@ -133,3 +133,46 @@ $('#desktopmoreinfo4').on('click', function() {
     document.querySelector('#desktopevent4').style.display = `none`
   }
 });
+
+document.getElementById('ticket1').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+document.getElementById('ticket2').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+document.getElementById('ticket3').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+document.getElementById('ticket4').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+
+document.getElementById('mobileticket1').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+document.getElementById('mobileticket2').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+document.getElementById('mobileticket3').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+document.getElementById('mobileticket4').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+
+document.getElementById('tabletticket1').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+document.getElementById('tabletticket2').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+document.getElementById('tabletticket3').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+document.getElementById('tabletticket4').onclick = function() {
+document.querySelector('.tickets').style.display = 'flex'
+}
+
+document.getElementById('cross').onclick = function() {
+document.querySelector('.tickets').style.display = 'none'
+}
