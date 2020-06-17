@@ -234,8 +234,7 @@ body {
   }
 
   .desktopshopitem .itemframe img {
-    width: 35vw;
-    height: 35vw;
+    width: 32vw;
   }
 
   .otheritemsframes .itemframe {
@@ -279,6 +278,21 @@ body {
 
   .tabletdescription {
     width: 48vw;
+  }
+
+  #canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .itemframe img:hover {
+    transform: scale(1.1);
+  }
+
+  .desktopshopitem .itemframe img:hover {
+    transform: scale(1.2);
   }
 
 

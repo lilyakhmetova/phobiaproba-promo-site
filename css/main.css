@@ -122,6 +122,7 @@ h1 {
   position: absolute;
   line-height: 60px;
   -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color: transparent;
   margin: -1vw 4vw;
   cursor: pointer;
 }
@@ -511,6 +512,10 @@ input {
 
   .subscription p {
     margin-bottom: 0vw;
+  }
+
+  #index {
+    -webkit-text-fill-color: #9F57FF;
   }
 
 }

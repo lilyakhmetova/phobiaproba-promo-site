@@ -30,4 +30,4 @@ function visibleBook() {
   document.querySelector('.book').style.visibility = `visible`
 }
 
-setTimeout(visibleBook, 800);
+setTimeout(visibleBook, 1000);

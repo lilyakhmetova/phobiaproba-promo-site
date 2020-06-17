@@ -11,3 +11,8 @@ document.querySelector('.iconcross').onclick = function() {
   document.querySelector('.fullmenu').style.display = `none`
   document.querySelector('.shadow').style.display = `none`
 }
+
+document.getElementById('subscription').onclick = function() {
+document.querySelector('body').style.background = '#9F57FF'
+document.getElementById('subscription').innerHTML = 'ВЫ ПОДПИСАНЫ'
+}
